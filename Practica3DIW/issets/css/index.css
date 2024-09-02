@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Script+MT+Bold&display=swap');
+body {
+    overflow-x: hidden;
+    background-image: url('../imagenes/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.nav-link.active {
+    color: black !important;
+    font-weight: bold;
+}
+
+
+.logo-img {
+    max-width: 48px;
+}
+
+.movimiento {
+    transition: transform 0.3s ease;
+}
+
+.movimiento:hover {
+    transform: translateY(-10px);
+}
+
+.navbar {
+    background-color: aliceblue;
+    background-image: radial-gradient(circle farthest-corner at 25% -20%, rgba(255, 188, 111, 0.712), hsla(355, 100%, 73%, 0.788) 52%), radial-gradient(circle farthest-corner at 100% 0%, rgba(239, 222, 159, 0.08), hsla(243, 85%, 58%, 0) 25%);
+}
+
+.contenedorPrincipal {
+    width: 100%;
+    text-align: center;
+}
+
+.imgPrincipal {
+    opacity: 0.8;
+}
+
+.texto-encima-derecha {
+    position: absolute;
+    top: 5%;
+    right: 0;
+    transform: translateY(-50%);
+    font-family: 'Script MT Bold';
+    color: aliceblue;
+    text-shadow: 2px 3px 4px rgb(0, 0, 0);
+}
+
+.texto-encima-izquierda {
+    position: absolute;
+    top: 5%;
+    left: 0;
+    transform: translateY(-50%);
+    font-family: 'Script MT Bold';
+    color: aliceblue;
+    text-shadow: 2px 3px 4px rgb(0, 0, 0)
+}
+
+.texto-encima-derecha-abajo {
+    position: absolute;
+    top: 10%;
+    right: 0;
+    transform: translateY(-50%);
+    font-family: 'Script MT Bold';
+    color: aliceblue;
+    text-shadow: 2px 3px 4px rgb(0, 0, 0);
+}
+
+.texto-encima-izquierda-abajo {
+    position: absolute;
+    top: 10%;
+    left: 0;
+    transform: translateY(-50%);
+    font-family: 'Script MT Bold';
+    color: aliceblue;
+    text-shadow: 2px 3px 4px rgb(0, 0, 0);
+
+}
+
+.tituloRebajas {
+    font-family: 'Script MT Bold';
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 3px 4px rgb(96, 33, 6);
+}
+
+p{
+    font-family: 'Script MT Bold';
+    font-size: 160%;
+    color: rgb(0, 0, 0);
+}
+
+.card {
+    background-image: url(../imagenes/fondoCard.jpg);
+}
+
+.cardRebajas {
+    opacity: 1;
+    transition: opacity 0.5s ease;
+    
+}
+
+.cardRebajas:hover {
+    opacity: 0.6;
+}
+
+.CTA {
+    background-image: url(../imagenes/fondoCTA.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.icono {
+    transition: color 0.3s ease; 
+}
+
+.icono:hover {
+    color: #19e0ff;
+}
